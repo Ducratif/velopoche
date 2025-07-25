@@ -21,14 +21,18 @@ Script FiveM esx_legacy 2025
 
 ## 📁 Installation
 
-1. Placez le dossier `ducratif_velopoche` dans `resources/[ducratif]`
+1. Placez le dossier `velo_poche` dans `resources/[ducratif]`
 
 2. Ajoutez la ligne suivante à votre `server.cfg` :
    ensure ducratif_velopoche
 
-3. Ajoutez l’item `velo_poche` dans votre base de données ou système d’inventaire.
+   # ATTENTION:
+   Le nom du script doit bien ce nommer `velo_poche`
+Sinon au moment de l'utilisation du vélo, vous ne pourrez pas l'utiliser
 
-4. (Optionnel) Ajoutez une animation ou un son dans `client.lua` lors de la sortie du vélo.
+4. Ajoutez l’item `velo_poche` dans votre base de données ou système d’inventaire.
+
+5. (Optionnel) Ajoutez une animation ou un son dans `client.lua` lors de la sortie du vélo.
 
 # ox_inventory
 
